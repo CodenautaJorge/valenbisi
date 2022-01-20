@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "API REST para obtener los datos de Valenbisi en coordenadas decimales",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Jorge Perez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-fetch": "^3.1.1",
+    "utm": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
