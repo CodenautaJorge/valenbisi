@@ -12,8 +12,8 @@ app.listen(app.get('port'), () =>{
 
 
 const url = 'http://mapas.valencia.es/lanzadera/opendata/Valenbisi/JSON';
-const response = await fetch(url);
-const data = await response.json();
+const response = fetch(url);
+const data = response.json();
 //console.log(data);
 
 const valenbisi = [];
